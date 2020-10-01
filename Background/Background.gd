@@ -9,9 +9,9 @@ func _ready():
 
 func update_color():
 	if HUD.color_background:
-		pass
+		pass #self.color = Color8(230, 252, 245)
 	else:
-		pass
+		pass #self.color = Color(1,1,1,1)
 
 func _on_HUD_changed():
 	update_color()
